@@ -76,7 +76,7 @@
 
     //-->
     <i class="glyphicon glyphicon-align-justify" id="mobile-menu-btn"></i>
-    
+
     <!--
 
     Envor header start
@@ -194,6 +194,14 @@
             visible : 1,
             selector : 'testimonials-2',
             mobile_visible : 1
+          });
+          /*
+
+          Sorting
+
+          */
+          $('#portfolio-sorting').rivaSorting({
+            showAll : 1
           });
       });
     </script>

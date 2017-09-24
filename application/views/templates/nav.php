@@ -9,13 +9,13 @@
         <a href="#">Profil</a>
         <ul>
           <li><a href="<?=base_url();?>profil/sejarah">Sejarah Sekolah</a></li>
-          <li><a href="index-flex.html">Visi & Misi</a></li>
-          <li><a href="index-bootstrap-carousel.html">Sarana dan Prasarana</a></li>
+          <li><a href="<?=base_url();?>profil/visimisi">Visi & Misi</a></li>
+          <li><a href="<?=base_url();?>profil/sarana_prasarana">Sarana dan Prasarana</a></li>
           <li><a href="index-bootstrap-carousel.html">Struktur Organisasi</a></li>
         </ul>
       </li>
       <li>
-        <a href="index.html">Galeri</a>
+        <a href="<?=base_url();?>web/galeri">Galeri</a>
       </li>
       <li>
         <a href="index.html">Berita</a>
@@ -28,7 +28,7 @@
         </ul>
       </li>
       <li>
-        <a href="index.html">Kontak</a>
+        <a href="<?=base_url();?>web/kontak">Kontak</a>
       </li>
     </ul>
     <!--
@@ -132,14 +132,14 @@ Envor mobile menu end
                 <li>
                   <a href="#">Profil</a>
                   <ul>
-                    <li><a href="<?=base_url()."profil/sejarah";?>">Sejarah Sekolah</a></li>
-                    <li><a href="index-flex.html">Visi & Misi</a></li>
-                    <li><a href="index-bootstrap-carousel.html">Sarana dan Prasarana</a></li>
-                    <li><a href="index-bootstrap-carousel.html">Struktur Organisasi</a></li>
+                    <li><a href="<?=base_url();?>profil/sejarah">Sejarah Sekolah</a></li>
+                    <li><a href="<?=base_url();?>profil/visimisi">Visi & Misi</a></li>
+                    <li><a href="<?=base_url();?>profil/sarana_prasarana">Sarana dan Prasarana</a></li>
+                    <li><a href="<?=base_url();?>profil/struktur_organisasi">Struktur Organisasi</a></li>
                   </ul>
                 </li>
                 <li>
-                  <a href="index.html">Galeri</a>
+                  <a href="<?=base_url();?>web/galeri">Galeri</a>
                 </li>
                 <li>
                   <a href="index.html">Berita</a>
@@ -152,7 +152,7 @@ Envor mobile menu end
                   </ul>
                 </li>
                 <li>
-                  <a href="index.html">Kontak</a>
+                  <a href="<?=base_url();?>web/kontak">Kontak</a>
                 </li>
               </ul>
             <!--

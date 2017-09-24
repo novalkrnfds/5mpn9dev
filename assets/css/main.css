@@ -575,14 +575,14 @@ input[type=submit], input[type=file], input[type=button], button[type=submit], b
 .page-title-1 {
 	width: 100%;
 	float: left;
-	background-image: url(../img/slider-bg-dark.jpg);
+	background-image: url(../img/batik-texture-background.jpg);
 	background-size: cover;
 	background-color: transparent !important;
 	background-attachment: fixed;
 	background-position: 50% 0 !important;
 	background-repeat: no-repeat;
 	position: relative;
-	padding: 60px 0px;
+	padding: 30px 0px;
 }
 .page-title-1 h1 {
 	line-height: 40px;

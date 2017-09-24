@@ -9,7 +9,7 @@ class Profil extends CI_Controller {
 	}
 
 	public function Struktur_organisasi(){
-		$this->Template->display('Content/Strukturorganisasi');
+		$this->Template->display('Content/Profil/Struktur');
 	}
 
 	public function Visimisi(){
@@ -24,8 +24,8 @@ class Profil extends CI_Controller {
 		$this->Template->display('Content/Profil/Sejarah');
 	}
 
-	public function Saranaprasarana(){
-		$this->Template->display('Content/Profil/Saranaprasarana');
+	public function Sarana_Prasarana(){
+		$this->Template->display('Content/Profil/Sarana');
 	}
 
 	public function Saranaprasarana2(){

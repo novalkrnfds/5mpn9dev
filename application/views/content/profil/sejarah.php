@@ -2,12 +2,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-9 col-md-9 col-sm-9">
-        <h1>Steve M. Sadler</h1>
-      </div>
-      <div class="col-lg-3 col-md-3 col-sm-3">
-        <form class="search">
-          <input type="text" placeholder="type to search...">
-        </form>
+        <h1>Sejarah Sekolah</h1>
       </div>
     </div>
   </div>
@@ -27,7 +22,7 @@ Desktop breadscrubs start
     <div class="row">
       <div class="col-lg-12">
         <div class="desktop-breadscrubs-inner">
-          <a href="index.html">Home</a><i class="fa fa-angle-double-right"></i><a href="pages.html">Pages</a><i class="fa fa-angle-double-right"></i>Steve M. Sadler
+          <a href="<?=base_url();?>">Beranda</a><i class="fa fa-angle-double-right"></i></i>Sejarah Sekolah
         </div>
       </div>
     </div>
@@ -47,7 +42,7 @@ Mobile breadscrubs start
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
-        <a href="index.html">Home</a><i class="fa fa-angle-double-right"></i><a href="pages.html">Pages</a><i class="fa fa-angle-double-right"></i>Steve M. Sadler
+        <a href="<?=base_url();?>">Beranda</a><i class="fa fa-angle-double-right"></i></i>Sejarah Sekolah
       </div>
     </div>
   </div>
@@ -66,33 +61,47 @@ Main Content start
   <div class="container">
     <div class="row">
       <div class="col-lg-4 col-md-4">
-        <figure><img src="img/img1.png" alt=""></figure>
+        <figure><img src="<?=base_url();?>assets/img/sekolah/8.jpg" alt=""></figure>
       </div>
       <div class="col-lg-8 col-md-8">
-        <h2>Hi there! I am a <strong>web developer</strong>!</h2>
-        <p>Aenean varius nulla turpis, id iaculis leo elementum vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sodales diam lacinia, porta lectus a, consectetur justo. Phasellus elit leo, rhoncus ac urna at, suscipit rhoncus nisi. Aenean dignissim magna a erat blandit, in feugiat nibh malesuada. Vestibulum ullamcorper vulputate adipiscing. Duis cursus imperdiet orci vel vulputate.</p>
-        <div class="row">
-          <div class="col-lg-6 col-md-6">
-            <h2>more <strong>options</strong></h2>
-            <ul class="e-color-list">
-              <li><i class="glyphicon glyphicon-check"></i> Sed vel libero eget erat commodo porta sed facilisis.</li>
-              <li><i class="glyphicon glyphicon-check"></i> Cum sociis natoque penatibus et magnis dis parturient .</li>
-              <li><i class="glyphicon glyphicon-check"></i> Morbi fringilla condimentum sapien mi vitae facilisis.</li>
-              <li><i class="glyphicon glyphicon-check"></i> Nullam porta, elit vel porttitor elementum, mauris.</li>
-              <li><i class="glyphicon glyphicon-check"></i> Praesent hendrerit eu dui eu tempor.</li>
-              <li><i class="glyphicon glyphicon-check"></i> Donec dolor massa, accumsan sit amet orci non.</li>
-            </ul>
-          </div>
-          <div class="col-lg-6 col-md-6">
-            <h2>My <strong>Skills</strong></h2>
-            <div class="relative" id="skills">
-              <div class="skill-2" data-name="HTML5" data-value="89%"></div>
-              <div class="skill-2" data-name="CSS3" data-value="82%"></div>
-              <div class="skill-2" data-name="JavaScript" data-value="79%"></div>
-              <div class="skill-2" data-name="PHP" data-value="75%"></div>
-            </div>
-          </div>
-        </div>
+        <h2>SMP Negeri 9 Kota Sungai Penuh</h2>
+        <p align="justify">Sekolah Menengah Umum Tingkat Pertama (SMP) Negeri 9 Kota Sungai Penuh
+          yang berlokasi di Desa Amar Sakti Kecamatan Sungai Penuh Jalan Kol.M.Koekoh.
+          Dinegerikan pada Tanggal 05 Mei 1992 Oleh Menteri Pendidikan dan Kebudayaan
+          (FUAD HASSAN) dengan Surat Keputusan Nomor.0216/0/1992. Sebelum Penegerian,
+          sekolah ini bernama SKKP Negeri Sungai Penuh yang Kepala Sekolah nya bernama
+          NY.RASINA ZEN dari Sungai Penuh, mulai dari Tahun 1955 sampai Tahun 1992.
+          Program Studi yang dilaksanakan disekolah ini adalah Program Ketrampilan Yaitu : </p>
+          <ul>
+            <li>1. Ketrampilan Tata Boga</li>
+            <li>2. Ketrampilan Tata Busana dimana Dananya langsung dari
+           Pemerintah Pusat</li>
+         </ul>
+          <p align="justify">Sekolah ini menjalankan Program Ketrampilan sampai dengan
+          Tahun1997. Setelah itu Program ini dihapus dan dikembalikan ke SMP Umum.
+          Ibu Ny.Rasina Zen Menjadi Kepala Sekolah disini sampai Tahun 1994. Karena Ibu
+          Ny.Rasina Zen Memasuki Masa Pensiun Maka Kepala Sekolah SMP Negeri 9 Kota
+          Sungai Penuh digantikan oleh Bapak DRS.PAHSENEN dari Pondok Tinggi sampai
+          Tahun 1997 Karena Bapak DRS.PAHSENEN juga memasuki Masa Pensiun Kepala
+          Sekolah digantikan oleh Bapak LUKMAN THALIB S,Pd dari Koto Iman sampai Tahun
+          1999.karena Bapak LUKMAN THALIB S,Pd waktu itu mengalami sakit berat yang tidak
+          bisa menjalankan tugas maka Kepala sekolah digantikan oleh Bapak Drs.PATRIHADI
+          dari Koto Iman sampai Tahun 2006. <br><br>Mulai dari Tahun 2006 sekolah ini dipimpin oleh
+          Ibuk FEBRINA YUSVANELLY dari Pondok Tinggi sampai Tahun 2011. Setelah itu
+          Kepala Sekolah SMP Negeri 9 Kota Sungai Penuh dijabat oleh Bapak DAHMIR,S.Pd
+          dari Desa Tanjung Rawang sampai Sekarang. Fasilitas yang ada disekolah ini antara
+          lain : Labor IPA, Labor Bahasa, Labor TIK, Ruang Kesenian, Ruang UKS Ruang Olah
+          Raga, Koperasi Siswa, Perustakaan, Ruang Guru,Ruang Kepala Sekolah, Ruang Tata
+          Usaha, Ruang Wakil, WC Guru dan WC Siswa, Tenaga Pendidik (Guru PNS) berjumlah
+          32 Orang Guru Honorer berjumlah 18 Orang Pegawai Tata Usaha berjumlah 6 Orang
+
+          dan Siswanya Berjumlah 363 Orang Ruang Belajarnya berjumlah 16 Ruang, dari
+          Tahun ke Tahun sekolah ini mengalami Peningkatan, baik itu jumlah Siswa dan Jumlah
+          Ruang Belajar dan juga jumlah bangunannya jauh bertambah baik dari yang
+          sebelumnya, dalam kegiatan Belajar mengajar di SMP Negeri 9 Kota Sungai Penuh ini
+          siswa tidak dipungut biaya apapun dan .bagi siswa yang kurang mampu akan diusulkan
+          mendapat Bea Siswa Miskin.</p>
+
       </div>
     </div>
   </div>

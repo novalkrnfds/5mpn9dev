@@ -10,7 +10,14 @@
         <div class="widget">
           <h3>Tentang SMPN 9</h3>
           <div class="widget-inner">
-            <p align="justify">Website ini merupakan sumber informasi di dalam SMPN 9 Sungai Penuh, JAMBI. Segala kegiatan hingga berita terupdate mengenai sekolah ini akan di Publish disini.</p>
+            <p align="justify">
+              Sekolah Menengah Umum Tingkat Pertama (SMP) Negeri 9 Kota Sungai Penuh
+              yang berlokasi di Desa Amar Sakti Kecamatan Sungai Penuh Jalan Kol.M.Koekoh.
+              Dinegerikan pada Tanggal 05 Mei 1992 Oleh Menteri Pendidikan dan Kebudayaan
+              (FUAD HASSAN) dengan Surat Keputusan Nomor.0216/0/1992. Sebelum Penegerian,
+              sekolah ini bernama SKKP Negeri Sungai Penuh yang Kepala Sekolah nya bernama
+              NY.RASINA ZEN dari Sungai Penuh, mulai dari Tahun 1955.Sampai Tahun 1992.
+            </p>
 
           </div>
         </div>
