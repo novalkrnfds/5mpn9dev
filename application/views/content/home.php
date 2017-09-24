@@ -72,23 +72,20 @@ Projects start
     <div class="row">
       <div class="col-lg-12">
         <h3>Sambutan <strong>Kepala Sekolah</strong></h3>
+      </div>
 
-    </div>
-    <div class="row">
-            <div class="col-lg-3 col-md-2">
-              <figure class="single"><img src="<?=base_url(); ?>assets/img/sekolah/kepsek.jpg" width="200px" ></figure>
-            </div>
-            <div class="col-lg-9 col-md-9">
-              <!-- <h2>Sambutan<strong> Kepala sekolah </strong></h2> -->
-              <p style="text-align:justify;">Puji syukur senantiasa kita panjatkan kepada Tuhan Yang Maha Esa yang tiada putus-putusnya melimpahkan rahmat dan karuniaNya kepada kita semua.
-
-											Website SMP Negeri 9 Sungai Penuh JAMBI dibuat dengan tujuan untuk memberikan informasi secara menyeluruh kepada masyarakat mengenai kegiatan dan prestasi sekolah, sehingga diharapkan dapat menjadi salah satu sarana interaksi langsung masyarakat dengan SMP Negeri 9 Sungai Penuh JAMBI.<br><br>
-
-											Secara garis besar website ini berisi tentang, proses pengelolaan SMP Negeri 9 Sungai Penuh JAMBI, baik pengelolaan akademis maupun administratif. Bagian-bagian tertentu dari website ini diharapkan dapat memberikan informasi yang akurat, resmi dan cepat kepada masyarakat yang bersumber langsung dari akademik, kesiswaan, sarana prasarana dan humas.<br><br>
-
-											Semoga masyarakat dan siswa yang berkepentingan agar dapat memanfaatkan website ini dengan sebaik-baiknya. Kami dari pihak sekolah berharap semoga kita memperoleh kemudahan dalam mencapai cita-cita, untuk kemajuan SMP Negeri 9 Sungai Penuh JAMBI, bangsa dan negara yang tercinta di masa yang akan datang.</p>
-            </div>
-          </div>
+      <?php if($data)
+        foreach($data as $dt) : ?>
+      <div class="row">
+        <div class="col-lg-3 col-md-2">
+          <figure class="single"><img src="https://smpn2spn.sch.id/admin/assets/uploads/<?=$dt->foto_kepsek; ?>" width="200px" ></figure>
+        </div>
+        <div class="col-lg-9 col-md-9">
+                <!-- <h2>Sambutan<strong> Kepala sekolah </strong></h2> -->
+          <p style="text-align:justify;"><?=$dt->sambutan;?></p>
+        </div>
+      </div>
+      <?php endforeach; ?>
   </div>
 <!--
 
@@ -117,65 +114,25 @@ Testimonials #1 start
           News Item start
 
           //-->
-          <article class="post-preview  padding-left-30">
-            <div class="post-preview-inner">
-              <div class="header">
-                <div class="date">
-                  <span class="day">25</span><span class="month">DEC, 13</span>
+          <?php
+			       foreach($berita as $b) : ?>
+              <article class="post-preview  padding-left-30">
+                <div class="post-preview-inner">
+                  <div class="header">
+                    <div class="date">
+                      <span class="day"><?=date('d', strtotime($b->dibuat))?></span><span class="month"><?=date('M', strtotime($b->dibuat))?>, <?=date('y', strtotime($b->dibuat))?></span>
+                    </div>
+                    <a target="_blank" href="<?=base_url('berita/detail/'. $b->id) ?>"><span style="font-size:0.87em"><?=$b->judul;?></span></a>
+                  </div>
+                  <p><?=substr($b->body, 0, 180); ?>... <a target="_blank" href="<?=base_url('berita/detail/'. $b->id) ?>" class="more">Selengkapnya →</a></p><br></p>
                 </div>
-                <a href="">In pharetra posuere dolor nulla...</a>
-              </div>
-              <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec ut aliquet enim...</p>
-            </div>
-          <!--
+              <!--
 
-          News Item end
+              News Item end
 
-          //-->
-          </article>
-          <!--
-
-          News Item start
-
-          //-->
-          <!--
-
-          News Item start
-
-          //-->
-          <article class="post-preview  padding-left-30">
-            <div class="post-preview-inner">
-              <div class="header">
-                <div class="date">
-                  <span class="day">02</span><span class="month">FEB, 14</span>
-                </div>
-                <a href="">Nulla ligula augue, placerat in magna...</a>
-              </div>
-              <p>Ut id commodo diam, eget auctor odio. Aenean convallis, eros id luctus vehicula, risus dolor laoreet magna, nec ultrices...</p>
-            </div>
-          <!--
-
-          News Item end
-
-          //-->
-          </article>
-
-          <article class="post-preview  padding-left-30">
-            <div class="post-preview-inner">
-              <div class="header">
-                <div class="date">
-                  <span class="day">02</span><span class="month">FEB, 14</span>
-                </div>
-                <a href="">Nulla ligula augue, placerat in magna...</a>
-              </div>
-              <p>Ut id commodo diam, eget auctor odio. Aenean convallis, eros id luctus vehicula, risus dolor laoreet magna, nec ultrices...</p>
-            </div>
-          <!--
-
-          News Item end
-
-          //-->
-          </article>
+              //-->
+              </article>
+          <?php endforeach; ?>
           <!--
 
           Navigation News Item start
@@ -204,39 +161,26 @@ Testimonials #1 start
       //-->
       <div class="col-lg-6 col-md-6">
         <h3>Pengumuman <strong>Sekolah</strong></h3>
-        <div class="relative" id="clients-testimonials">
+        <div class="toggle">
           <!--
 
-          Testimonials #2 Item start
+          Toggle Item start
 
           //-->
-          <article class="testimonials-2">
-            <div class="testimonials-2-inner">
-              <p>Morbi sem erat, scelerisque sed est et, scelerisque rhoncus purus. Aenean varius, est vitae aliquet faucibus, nibh enim vehicula enim, sed tincidunt velit turpis sed ligula.</p>
-              <p class="author">- Shirley G. Simek, <span>developer</span></p>
-              <i class="fa fa-quote-left"></i>
-              <i class="fa fa-quote-right"></i>
-              <div class="arrow"></div>
-            </div>
+          <?php
+          foreach ($pengumuman as $p) { ?>
+          <article>
+            <header><?=$p->judul;?> <i class="fa fa-plus"></i></header>
+            <p><?=$p->isi;?></p>
           <!--
 
-          Testimonials #2 Item end
+          Toggle Item end
 
           //-->
           </article>
-          <!--
-
-          Testimonials #2 Item start
-
-          //-->
-
-          <!--
-
-          Testimonials #2 Item controls
-
-          //-->
-          <div class="controls  controls-left rivaslider-controls"></div>
+          <?php } ?>
         </div>
+
       <!--
 
       Testimonials #2 end

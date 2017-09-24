@@ -109,7 +109,7 @@ Envor mobile menu end
             //-->
             <a href="<?=base_url();?>">
               <div class="logo">
-                <img src="<?=base_url();?>assets/img/icon-smp.png" alt="Envor Logo">
+                <img src="<?=base_url();?>assets/img/logospenlan.png" alt="Envor Logo">
                 <p class="logo">SMPN9</p>
                 <p class="tagline">Kota Sungai Penuh </p>
               <!--
@@ -147,7 +147,7 @@ Envor mobile menu end
                 <li>
                   <a href="#">Akademik</a>
                   <ul>
-                    <li><a href="index.html">Agenda Kegiatan</a></li>
+                    <li><a href="<?=base_url();?>akademik/agenda">Agenda Kegiatan</a></li>
                     <li><a href="index-flex.html">Pengumuman</a></li>
                   </ul>
                 </li>

@@ -69,6 +69,7 @@ class Berita extends CI_Controller {
 	}
 
 	public function Detail(){
+		error_reporting(0);
 		$id= $this->uri->segment(3);
 		$data['berita'] = $this->MBerita->ambilBeritaID($id);
 

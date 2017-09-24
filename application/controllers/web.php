@@ -1,4 +1,4 @@
-<?php 
+<?php
 if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
 class Web extends CI_Controller {
@@ -6,6 +6,7 @@ class Web extends CI_Controller {
 		parent::__construct();
 		$this->load->library('Template');
 		$this->load->Model('HomeModel', '', TRUE);
+		$this->load->Model('GaleriModel', '', TRUE);
 		$this->Template = new Template();
 	}
 
@@ -15,15 +16,16 @@ class Web extends CI_Controller {
 		$data['pengumuman']=$this->HomeModel->Pengumuman();
 		$this->template->display('content/home', $data);
 	}
-	
+
 	public function galeri(){
-		$this->template->display('Content/Galeri');
+		$data['galeri']=$this->GaleriModel->SelectAll();
+		$this->template->display('Content/Galeri', $data);
 	}
-	
+
 	public function visimisi(){
 		$this->template->display('Content/Galeri');
 	}
-	
+
 	public function kontak(){
 		$this->template->display('Content/Kontak');
 	}

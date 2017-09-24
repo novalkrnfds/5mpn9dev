@@ -116,6 +116,7 @@ Main Content start
 
         //-->
         </div>
+        <?=$links?>
       </div>
       <!--
 

@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="SMP Negeri 9 Kota Sungai Penuh">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="">
+    <link rel="shortcut icon" href="<?=base_url();?>assets/img/favicon.png">
 
     <title>SMP Negeri 9 Kota Sungai Penuh</title>
 
@@ -36,6 +36,8 @@
 
     <!-- LayerSlider styles -->
     <link rel="stylesheet" href="<?=base_url();?>assets/css/layerslider/css/layerslider.css" type="text/css">
+    <link rel="stylesheet" href="<?php echo base_url();?>assets/js/fullcalendar/dist/fullcalendar.css" type="text/css">
+    <link rel="stylesheet" href="<?php echo base_url();?>assets/js/fullcalendar/dist/fullcalendar.print.css" type="text/css">
 
     <!-- Just for debugging purposes. Don't actually copy this line! -->
     <!--[if lt IE 9]><script src="js/vendor/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -111,7 +113,10 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
+    <script src="<?php echo base_url();?>assets/js/moment/min/moment.min.js"></script>
     <script src="<?=base_url();?>assets/js/vendor/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="<?php echo base_url();?>assets/js/fullCalendar/dist/fullCalendar.min.js"></script>
+    <script type="text/javascript" src="<?php echo base_url();?>assets/js/fullCalendar/dist/locale/id.js"></script>
 
     <script src="<?=base_url();?>assets/js/vendor/core-1.0.5.js"></script>
 
@@ -203,6 +208,14 @@
           $('#portfolio-sorting').rivaSorting({
             showAll : 1
           });
+      });
+
+      $('document').ready(function() {
+        $('#calendar').fullCalendar({
+          defaultDate: '2017-09-12',
+          eventLimit: true, // allow "more" link when too many events
+          events: []
+        });
       });
     </script>
     <script src="<?=base_url();?>assets/js/envor.js"></script>
