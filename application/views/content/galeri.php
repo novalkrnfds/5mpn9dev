@@ -81,7 +81,7 @@ Mobile breadscrubs start
               //-->
               <article class="project  padding-bottom-30  padding-left-30 Kegiatan Ekstrakulikuler  sorting-item  listing-item">
                 <div class="project-inner">
-                  <figure><a href=""><img src="<?=base_url();?>assets/img/kegiatan/kg1.jpg" alt=""></a><figcaption><a href="<?=base_url();?>assets/img/kegiatan/kg1.jpg" class="colorbox"><i class="fa fa-plus"></i></a></figcaption></figure>
+                  <figure><a href=""><img src="<?=base_url();?>assets/img/kegiatan/kg1.jpg" alt=""></a><figcaption><a href="<?=base_url();?>assets/img/kegiatan/kg1.jpg" class="colorbox"><i class="fa fa-search"></i></a></figcaption></figure>
                 </div>
               </article>
               <!--
@@ -91,7 +91,7 @@ Mobile breadscrubs start
               //-->
               <article class="project  padding-bottom-30  padding-left-30 Fasilitas Fasilitas  sorting-item  listing-item">
                 <div class="project-inner">
-                  <figure><a href=""><img src="<?=base_url();?>assets/img/kegiatan/kg2.jpg" alt=""></a><figcaption><a href="<?=base_url();?>assets/img/kegiatan/kg2.jpg" class="colorbox"><i class="fa fa-plus"></i></a></figcaption></figure>
+                  <figure><a href=""><img src="<?=base_url();?>assets/img/kegiatan/kg2.jpg" alt=""></a><figcaption><a href="<?=base_url();?>assets/img/kegiatan/kg2.jpg" class="colorbox"><i class="fa fa-search"></i></a></figcaption></figure>
 
                 </div>
               </article>
@@ -102,7 +102,7 @@ Mobile breadscrubs start
               //-->
               <article class="project  padding-bottom-30 padding-left-30 Ekstrakulikuler Kegiatan sorting-item  listing-item">
                 <div class="project-inner">
-                  <figure><a href=""><img src="<?=base_url();?>assets/img/kegiatan/kg3.jpg" alt=""></a><figcaption><a href="<?=base_url();?>assets/img/kegiatan/kg3.jpg" class="colorbox"><i class="fa fa-plus"></i></a></figcaption></figure>
+                  <figure><a href=""><img src="<?=base_url();?>assets/img/kegiatan/kg3.jpg" alt=""></a><figcaption><a href="<?=base_url();?>assets/img/kegiatan/kg3.jpg" class="colorbox"><i class="fa fa-search"></i></a></figcaption></figure>
 
                 </div>
               </article>
@@ -113,7 +113,7 @@ Mobile breadscrubs start
               //-->
               <article class="project  padding-bottom-30  padding-left-30 Ekstrakulikuler Kegiatan  sorting-item  listing-item">
                 <div class="project-inner">
-                  <figure><a href=""><img src="<?=base_url();?>assets/img/kegiatan/kg4.jpg" alt=""></a><figcaption><a href="<?=base_url();?>assets/img/kegiatan/kg4.jpg" class="colorbox"><i class="fa fa-plus"></i></a></figcaption></figure>
+                  <figure><a href=""><img src="<?=base_url();?>assets/img/kegiatan/kg4.jpg" alt=""></a><figcaption><a href="<?=base_url();?>assets/img/kegiatan/kg4.jpg" class="colorbox"><i class="fa fa-search"></i></a></figcaption></figure>
 
                 </div>
               </article>
@@ -124,7 +124,7 @@ Mobile breadscrubs start
               //-->
               <article class="project  padding-bottom-30  padding-left-30 Kegiatan Fasilitas  sorting-item  listing-item">
                 <div class="project-inner">
-                  <figure><a href=""><img src="<?=base_url();?>assets/img/kegiatan/kg5.jpg" alt=""></a><figcaption><a href="<?=base_url();?>assets/img/kegiatan/kg5.jpg" class="colorbox"><i class="fa fa-plus"></i></a></figcaption></figure>
+                  <figure><a href=""><img src="<?=base_url();?>assets/img/kegiatan/kg5.jpg" alt=""></a><figcaption><a href="<?=base_url();?>assets/img/kegiatan/kg5.jpg" class="colorbox"><i class="fa fa-search"></i></a></figcaption></figure>
 
                 </div>
               </article>
@@ -135,7 +135,7 @@ Mobile breadscrubs start
               //-->
               <article class="project  padding-bottom-30  padding-left-30 Video Fasilitas  sorting-item  listing-item">
                 <div class="project-inner">
-                  <figure><a href=""><img src="<?=base_url();?>assets/img/kegiatan/kg6.jpg" alt=""></a><figcaption><a href="<?=base_url();?>assets/img/kegiatan/kg6.jpg" class="colorbox"><i class="fa fa-plus"></i></a></figcaption></figure>
+                  <figure><a href=""><img src="<?=base_url();?>assets/img/kegiatan/kg6.jpg" alt=""></a><figcaption><a href="<?=base_url();?>assets/img/kegiatan/kg6.jpg" class="colorbox"><i class="fa fa-search"></i></a></figcaption></figure>
 
                 </div>
               </article>
@@ -146,7 +146,7 @@ Mobile breadscrubs start
               //-->
               <article class="project  padding-bottom-30  padding-left-30 Ekstrakulikuler Fasilitas  sorting-item  listing-item">
                 <div class="project-inner">
-                  <figure><a href=""><img src="<?=base_url();?>assets/img/kegiatan/kg7.jpg" alt=""></a><figcaption><a href="<?=base_url();?>assets/img/kegiatan/kg7.jpg" class="colorbox"><i class="fa fa-plus"></i></a></figcaption></figure>
+                  <figure><a href=""><img src="<?=base_url();?>assets/img/kegiatan/kg7.jpg" alt=""></a><figcaption><a href="<?=base_url();?>assets/img/kegiatan/kg7.jpg" class="colorbox"><i class="fa fa-search"></i></a></figcaption></figure>
 
                 </div>
               </article>
@@ -157,7 +157,7 @@ Mobile breadscrubs start
               //-->
               <article class="project  padding-bottom-30  padding-left-30 Fasilitas Kegiatan  sorting-item  listing-item">
                 <div class="project-inner">
-                  <figure><a href=""><img src="<?=base_url();?>assets/img/kegiatan/kg8.jpg" alt=""></a><figcaption><a href="<?=base_url();?>assets/img/kegiatan/kg8.jpg" class="colorbox"><i class="fa fa-plus"></i></a></figcaption></figure>
+                  <figure><a href=""><img src="<?=base_url();?>assets/img/kegiatan/kg8.jpg" alt=""></a><figcaption><a href="<?=base_url();?>assets/img/kegiatan/kg8.jpg" class="colorbox"><i class="fa fa-search"></i></a></figcaption></figure>
 
                 </div>
               </article>
@@ -168,7 +168,7 @@ Mobile breadscrubs start
               //-->
               <article class="project  padding-bottom-30  padding-left-30 Fasilitas Ekstrakulikuler  sorting-item  listing-item">
                 <div class="project-inner">
-                  <figure><a href=""><img src="<?=base_url();?>assets/img/kegiatan/kg9.jpg" alt=""></a><figcaption><a href="<?=base_url();?>assets/img/kegiatan/kg9.jpg" class="colorbox"><i class="fa fa-plus"></i></a></figcaption></figure>
+                  <figure><a href=""><img src="<?=base_url();?>assets/img/kegiatan/kg9.jpg" alt=""></a><figcaption><a href="<?=base_url();?>assets/img/kegiatan/kg9.jpg" class="colorbox"><i class="fa fa-search"></i></a></figcaption></figure>
 
                 </div>
               </article>
@@ -179,7 +179,7 @@ Mobile breadscrubs start
               //-->
               <article class="project  padding-bottom-30  padding-left-30 Ekstrakulikuler development  sorting-item  listing-item">
                 <div class="project-inner">
-                  <figure><a href=""><img src="<?=base_url();?>assets/img/kegiatan/kg10.jpg" alt=""></a><figcaption><a href="<?=base_url();?>assets/img/kegiatan/kg10.jpg" class="colorbox"><i class="fa fa-plus"></i></a></figcaption></figure>
+                  <figure><a href=""><img src="<?=base_url();?>assets/img/kegiatan/kg10.jpg" alt=""></a><figcaption><a href="<?=base_url();?>assets/img/kegiatan/kg10.jpg" class="colorbox"><i class="fa fa-search"></i></a></figcaption></figure>
 
                 </div>
               </article>
@@ -190,7 +190,7 @@ Mobile breadscrubs start
               //-->
               <article class="project  padding-bottom-30  padding-left-30 Video Fasilitas  sorting-item  listing-item">
                 <div class="project-inner">
-                  <figure><a href=""><img src="<?=base_url();?>assets/img/kegiatan/kg11.jpg" alt=""></a><figcaption><a href="<?=base_url();?>assets/img/kegiatan/kg11.jpg" class="colorbox"><i class="fa fa-plus"></i></a></figcaption></figure>
+                  <figure><a href=""><img src="<?=base_url();?>assets/img/kegiatan/kg11.jpg" alt=""></a><figcaption><a href="<?=base_url();?>assets/img/kegiatan/kg11.jpg" class="colorbox"><i class="fa fa-search"></i></a></figcaption></figure>
 
                 </div>
               </article>
@@ -201,7 +201,7 @@ Mobile breadscrubs start
               //-->
               <article class="project  padding-bottom-30  padding-left-30 Video Fasilitas  sorting-item  listing-item">
                 <div class="project-inner">
-                  <figure><a href=""><img src="<?=base_url();?>assets/img/kegiatan/kg12.jpg" alt=""></a><figcaption><a href="<?=base_url();?>assets/img/kegiatan/kg12.jpg" class="colorbox"><i class="fa fa-plus"></i></a></figcaption></figure>
+                  <figure><a href=""><img src="<?=base_url();?>assets/img/kegiatan/kg12.jpg" alt=""></a><figcaption><a href="<?=base_url();?>assets/img/kegiatan/kg12.jpg" class="colorbox"><i class="fa fa-search"></i></a></figcaption></figure>
 
                 </div>
               </article>

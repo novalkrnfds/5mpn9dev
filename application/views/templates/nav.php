@@ -18,7 +18,7 @@
         <a href="<?=base_url();?>web/galeri">Galeri</a>
       </li>
       <li>
-        <a href="index.html">Berita</a>
+        <a href="<?=base_url();?>berita">Berita</a>
       </li>
       <li>
         <a href="#">Akademik</a>
@@ -142,7 +142,7 @@ Envor mobile menu end
                   <a href="<?=base_url();?>web/galeri">Galeri</a>
                 </li>
                 <li>
-                  <a href="index.html">Berita</a>
+                  <a href="<?=base_url();?>berita">Berita</a>
                 </li>
                 <li>
                   <a href="#">Akademik</a>

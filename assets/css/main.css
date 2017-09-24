@@ -4889,7 +4889,7 @@ p.blog-cat {
 	margin-bottom: 30px;
 	padding-bottom: 20px;
 	border: 0px solid #e5e5e5;
-	border-bottom-width: 1px;
+	border-bottom-width: 0px;
 }
 .post .img {
 	margin-bottom: 30px;

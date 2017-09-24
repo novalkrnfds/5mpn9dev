@@ -159,6 +159,23 @@ Testimonials #1 start
 
           //-->
           </article>
+
+          <article class="post-preview  padding-left-30">
+            <div class="post-preview-inner">
+              <div class="header">
+                <div class="date">
+                  <span class="day">02</span><span class="month">FEB, 14</span>
+                </div>
+                <a href="">Nulla ligula augue, placerat in magna...</a>
+              </div>
+              <p>Ut id commodo diam, eget auctor odio. Aenean convallis, eros id luctus vehicula, risus dolor laoreet magna, nec ultrices...</p>
+            </div>
+          <!--
+
+          News Item end
+
+          //-->
+          </article>
           <!--
 
           Navigation News Item start
@@ -212,7 +229,7 @@ Testimonials #1 start
           Testimonials #2 Item start
 
           //-->
-          
+
           <!--
 
           Testimonials #2 Item controls
