@@ -21,7 +21,7 @@ class Profil extends CI_Controller {
 	}
 
 	public function Sejarah(){
-		$this->Template->display('content/profil/sejarah');
+		$this->Template->display('Content/Profil/Sejarah');
 	}
 
 	public function Saranaprasarana(){
