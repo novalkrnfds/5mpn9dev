@@ -67,7 +67,7 @@ Main Content start
 
         //-->
         <article class="post">
-            <a href="https://smpn2spn.sch.id/admin/assets/uploads/berita/<?=$berita['gambar']; ?>" class="colorbox img"><img src="https://smpn2spn.sch.id/admin/assets/uploads/berita/<?=$berita['gambar']; ?>" width="100%" alt=""></a>
+            <a href="<?=base_url();?>admin/assets/uploads/berita/<?=$berita['gambar']; ?>" class="colorbox img"><img src="<?=base_url();?>admin/assets/uploads/berita/<?=$berita['gambar']; ?>" width="100%" alt=""></a>
           <header>
             <h3><i class="fa fa-pencil"></i> <span><?=$berita['judul'];?></span></h3>
             <p>posted by <a ><?=$berita['nama'];?></a></p>

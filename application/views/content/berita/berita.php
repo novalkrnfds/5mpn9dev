@@ -73,11 +73,11 @@ Main Content start
 
         <article class="post">
           <figure>
-            <a href="https://smpn2spn.sch.id/admin/assets/uploads/berita/<?=$b->gambar; ?>" width="100%" class="colorbox">
-              <img src="https://smpn2spn.sch.id/admin/assets/uploads/berita/<?=$b->gambar; ?>" width="100%" alt="">
+            <a href="<?=base_url();?>admin/assets/uploads/berita/<?=$b->gambar; ?>" width="100%" class="colorbox">
+              <img src="<?=base_url();?>admin/assets/uploads/berita/<?=$b->gambar; ?>" width="100%" alt="">
             </a>
             <figcaption>
-              <a href="https://smpn2spn.sch.id/admin/assets/uploads/berita/<?=$b->gambar; ?>" class="colorbox">
+              <a href="<?=base_url();?>admin/assets/uploads/berita/<?=$b->gambar; ?>" class="colorbox">
                 <i class="fa fa-search"></i>
               </a>
             </figcaption>

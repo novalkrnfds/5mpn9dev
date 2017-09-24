@@ -82,7 +82,7 @@ Mobile breadscrubs start
               <?php foreach ($galeri as $g) { ?>
                 <article class="project padding-bottom-30 padding-left-30 <?=$g->tag;?>  sorting-item  listing-item">
                   <div class="project-inner">
-                    <figure><a href=""><img src="https://smpn2spn.sch.id/admin/assets/uploads/gallery/<?=$g->gambar;?>" alt=""></a><figcaption><a href="https://smpn2spn.sch.id/admin/assets/uploads/gallery/<?=$g->gambar;?>" class="colorbox"><i class="fa fa-search"></i></a></figcaption></figure>
+                    <figure><a href=""><img src="<?=base_url();?>admin/assets/uploads/gallery/<?=$g->gambar;?>" alt=""></a><figcaption><a href="<?=base_url();?>admin/assets/uploads/gallery/<?=$g->gambar;?>" class="colorbox"><i class="fa fa-search"></i></a></figcaption></figure>
                   </div>
                 </article>
               <?php } ?>

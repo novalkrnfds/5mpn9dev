@@ -78,7 +78,7 @@ Projects start
         foreach($data as $dt) : ?>
       <div class="row">
         <div class="col-lg-3 col-md-2">
-          <figure class="single"><img src="https://smpn2spn.sch.id/admin/assets/uploads/<?=$dt->foto_kepsek; ?>" width="200px" ></figure>
+          <figure class="single"><img src="<?=base_url();?>admin/assets/uploads/<?=$dt->foto_kepsek; ?>" width="200px" ></figure>
         </div>
         <div class="col-lg-9 col-md-9">
                 <!-- <h2>Sambutan<strong> Kepala sekolah </strong></h2> -->
