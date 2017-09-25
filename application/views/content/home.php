@@ -170,7 +170,7 @@ Testimonials #1 start
           <?php
           foreach ($pengumuman as $p) { ?>
           <article>
-            <header><?=$p->judul;?> <i class="fa fa-plus"></i></header>
+            <header><i class="fa fa-bullhorn"></i>&nbsp;<?=$p->judul;?> <i class="fa fa-plus"></i></header>
             <p><?=$p->isi;?></p>
           <!--
 
@@ -228,4 +228,3 @@ Partners end
 <!--
 
 //-->
-</section>
