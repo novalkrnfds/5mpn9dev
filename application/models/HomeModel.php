@@ -31,7 +31,7 @@ class HomeModel extends CI_Model{
 	   $tgl = date('Y-m-d');
 		$this->db->select('*');
 		$this->db->where('status','Terbit');
-		$this->db->where('sampai >', $tgl);
+		//$this->db->where('sampai >', $tgl);
 		$this->db->limit(3);
 		$this->db->from('tb_pengumuman');
 		$query = $this->db->get();

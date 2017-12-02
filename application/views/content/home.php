@@ -106,48 +106,20 @@ Testimonials #1 start
       Latest News start
 
       //-->
+	
       <div class="col-lg-6 col-md-6">
-        <h3>Berita <strong>Terbaru</strong></h3>
-        <div class="relative" id="latest-news">
-          <!--
-
-          News Item start
-
-          //-->
-          <?php
-			       foreach($berita as $b) : ?>
-              <article class="post-preview  padding-left-30">
-                <div class="post-preview-inner">
-                  <div class="header">
-                    <div class="date">
-                      <span class="day"><?=date('d', strtotime($b->dibuat))?></span><span class="month"><?=date('M', strtotime($b->dibuat))?>, <?=date('y', strtotime($b->dibuat))?></span>
-                    </div>
-                    <a target="_blank" href="<?=base_url('berita/detail/'. $b->id) ?>"><span style="font-size:0.87em"><?=$b->judul;?></span></a>
-                  </div>
-                  <p><?=substr($b->body, 0, 180); ?>... <a target="_blank" href="<?=base_url('berita/detail/'. $b->id) ?>" class="more">Selengkapnya →</a></p><br></p>
-                </div>
-              <!--
-
-              News Item end
-
-              //-->
-              </article>
-          <?php endforeach; ?>
-          <!--
-
-          Navigation News Item start
-
-          //-->
-          <div class="navigation  navigation-left rivaslider-navigation">
-            <a href="" class="back"><i class="glyphicon glyphicon-chevron-left"></i></a>
-            <a href="" class="forward"><i class="glyphicon glyphicon-chevron-right"></i></a>
-          <!--
-
-          Navigation News Item end
-
-          //-->
-          </div>
-        </div>
+	  
+	  <h3>Berita <strong>Terbaru</strong></h3>
+	  <div class="featured-box">
+	  <?php foreach($berita as $b) : ?>
+		<h3><a target="_blank" href="<?=base_url('berita/detail/'. $b->id) ?>"><span style="font-size:0.87em"><?=$b->judul;?></span></a></h3>
+		<p><?=substr($b->body, 0, 180); ?>... </p>
+		<p><a href="<?=base_url('berita/detail/'. $b->id) ?>" class="envor-btn envor-btn-primary envor-btn-normal"><i class="fa fa-arrow-circle-o-down"></i> Selengkapnya...</a></p>
+	  <?php endforeach; ?>
+	  </div>
+	  
+        
+        
       <!--
 
       Latest News end
@@ -159,28 +131,34 @@ Testimonials #1 start
       Testimonials #2 start
 
       //-->
-      <div class="col-lg-6 col-md-6">
+      
+		<div class="col-lg-6 col-md-6">
         <h3>Pengumuman <strong>Sekolah</strong></h3>
         <div class="toggle">
-          <!--
-
-          Toggle Item start
-
-          //-->
-          <?php
-          foreach ($pengumuman as $p) { ?>
-          <article>
-            <header><i class="fa fa-bullhorn"></i>&nbsp;<?=$p->judul;?> <i class="fa fa-plus"></i></header>
-            <p><?=$p->isi;?></p>
-          <!--
-
-          Toggle Item end
-
-          //-->
-          </article>
-          <?php } ?>
+		  <?php
+		  if($pengumuman)
+			foreach($pengumuman as $p) :
+			$awal = $p->dari;
+			$akhir = $p->sampai;
+			$hasil = (strtotime($akhir) - strtotime($awal));
+			$jumlah = floor($hasil / (60 * 60 * 24));
+		if($jumlah > 0){ 
+            ?> 
+			<article>
+			<header><?php echo $p->judul;?> <i class="fa fa-plus"></i></header>
+            <?php echo $p->isi; ?>
+			</article>
+          <?php } else { ?>
+			<article>
+			<header>Tidak Ada Pengumuman<i class="fa fa-plus"></i></header>
+            <p>-</p>
+			</article>
+		  <?php }
+		  endforeach;?>
+          
         </div>
-
+		</div>
+            
       <!--
 
       Testimonials #2 end
@@ -228,3 +206,4 @@ Partners end
 <!--
 
 //-->
+</section>

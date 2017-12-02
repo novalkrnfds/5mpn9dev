@@ -20,8 +20,6 @@
     <link href='//fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800' rel='stylesheet' type='text/css'>
     <link href='//fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="<?php echo base_url();?>assets/js/fullcalendar/dist/fullcalendar.css" type="text/css">
-    <link rel="stylesheet" href="<?php echo base_url();?>assets/js/fullcalendar/dist/fullcalendar.print.css" type="text/css">
     <link href="<?=base_url();?>assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <!-- Custom CSS -->
     <link href="<?=base_url();?>assets/css/animate.css" rel="stylesheet" type="text/css">
@@ -38,6 +36,8 @@
 
     <!-- LayerSlider styles -->
     <link rel="stylesheet" href="<?=base_url();?>assets/css/layerslider/css/layerslider.css" type="text/css">
+    <link rel="stylesheet" href="<?php echo base_url();?>assets/js/fullcalendar/dist/fullcalendar.css" type="text/css">
+    <link rel="stylesheet" href="<?php echo base_url();?>assets/js/fullcalendar/dist/fullcalendar.print.css" type="text/css">
 
     <!-- Just for debugging purposes. Don't actually copy this line! -->
     <!--[if lt IE 9]><script src="js/vendor/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -210,13 +210,7 @@
           });
       });
 
-      $('document').ready(function() {
-        $('#calendar').fullCalendar({
-          defaultDate: '2017-09-12',
-          eventLimit: true, // allow "more" link when too many events
-          events: []
-        });
-      });
+      
     </script>
     <script src="<?=base_url();?>assets/js/envor.js"></script>
     <script type="text/javascript">

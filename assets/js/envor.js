@@ -244,6 +244,45 @@
 			}
 		});
 	});
+	
+	/*********************************************
+
+		Envor Toggle
+
+	*********************************************/
+	$('.envor-toggle').each(function() {
+		var $this = $(this),
+			$article = $this.find('article'),
+			$header = $article.find('header'),
+			$content = $article.find('p');
+		$content.hide();
+		$header.removeClass('active');
+		$article.last().css('margin-bottom', '0px');
+		$article.each(function() {
+			var $t = $(this);
+			if ($t.hasClass('open')) {
+				$t.find('.fa').addClass('fa-minus');
+				$t.find('header').addClass('active');
+				$t.find('p').show();
+			}
+		});
+		$header.click(function() {
+			$header.parent().removeClass('open');
+			if ($(this).hasClass('active')) {
+				$(this).find('.fa').removeClass('fa-minus');
+				$(this).removeClass('active');
+				$(this).parent().find('p').slideUp();
+			} else {
+				$header.removeClass('active');
+				$content.slideUp();
+				$header.find('.fa').removeClass('fa-minus');
+				$(this).find('.fa').addClass('fa-minus');
+				$(this).addClass('active');
+				$(this).parent().find('p').slideDown();
+			}
+		});
+	});
+
 
 	/*********************************************
 

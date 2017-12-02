@@ -11,7 +11,7 @@
           <li><a href="<?=base_url();?>profil/sejarah">Sejarah Sekolah</a></li>
           <li><a href="<?=base_url();?>profil/visimisi">Visi & Misi</a></li>
           <li><a href="<?=base_url();?>profil/sarana_prasarana">Sarana dan Prasarana</a></li>
-          <li><a href="<?=base_url();?>profil/struktur_organisasi">Struktur Organisasi</a></li>
+		  <li><a href="<?=base_url();?>profil/struktur_organisasi">Struktur Organisasi</a></li>
         </ul>
       </li>
       <li>
@@ -23,8 +23,8 @@
       <li>
         <a href="#">Akademik</a>
         <ul>
-          <li><a href="<?=base_url();?>akademik/agenda">Agenda Kegiatan</a></li>
-          <li><a href="<?=base_url();?>akademik/pengumuman">Pengumuman</a></li>
+          <li><a href="index.html">Agenda Kegiaran</a></li>
+          <!--<li><a href="index-flex.html">Pengumuman</a></li> -->
         </ul>
       </li>
       <li>
@@ -109,7 +109,7 @@ Envor mobile menu end
             //-->
             <a href="<?=base_url();?>">
               <div class="logo">
-                <img src="<?=base_url();?>assets/img/logospenlan.png" alt="Logo">
+                <img src="<?=base_url();?>assets/img/logospenlan.png" alt="Envor Logo">
                 <p class="logo">SMPN9</p>
                 <p class="tagline">Kota Sungai Penuh </p>
               <!--
@@ -148,7 +148,7 @@ Envor mobile menu end
                   <a href="#">Akademik</a>
                   <ul>
                     <li><a href="<?=base_url();?>akademik/agenda">Agenda Kegiatan</a></li>
-                    <li><a href="<?=base_url();?>akadmeik/pengumuman">Pengumuman</a></li>
+                    <!--<li><a href="index-flex.html">Pengumuman</a></li> -->
                   </ul>
                 </li>
                 <li>

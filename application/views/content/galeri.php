@@ -73,12 +73,15 @@ Mobile breadscrubs start
           //-->
           <div class="row">
             <div class="col-lg-12">
-            <div class="projects-listing  projects-listing-4-cols">
+            <div class="projects-listing  projects-listing-3-cols">
               <!--
 
+			  
               Project Item
 
+			  
               //-->
+			  
               <?php foreach ($galeri as $g) { ?>
                 <article class="project padding-bottom-30 padding-left-30 <?=$g->tag;?>  sorting-item  listing-item">
                   <div class="project-inner">

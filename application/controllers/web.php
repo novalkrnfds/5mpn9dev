@@ -14,7 +14,7 @@ class Web extends CI_Controller {
 		$data['data']=$this->HomeModel->SelectAll();
 		$data['berita']=$this->HomeModel->Berita();
 		$data['pengumuman']=$this->HomeModel->Pengumuman();
-		$this->template->display('content/home', $data);
+		$this->template->display('Content/Home', $data);
 	}
 
 	public function galeri(){
