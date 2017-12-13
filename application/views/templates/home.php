@@ -49,6 +49,16 @@
     <![endif]-->
 
     <script src="<?=base_url();?>assets/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+
+    <style>
+      .fade.in{
+        opacity:  0.8 !important
+      }
+
+      .modal-backdrop {
+        background-color: #fff;
+      }
+    </style>
   </head>
 
     <body>

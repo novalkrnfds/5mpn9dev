@@ -1,3 +1,23 @@
+<<script type="text/javascript">
+  $(document).ready(function(){
+    $("#myModal").on("hidden.bs.modal",function(){
+      $("#iframeYoutube").attr("src","#");
+    })
+  })
+
+  function stopVid(){
+    $("#iframeYoutube").attr("src","#");
+  }
+
+  function changeVideo(vId){
+    var iframe = document.getElementById("iframeYoutube");
+    iframe.src= vId;
+    console.log(vId)
+
+    $("#myModal").modal("show");
+  }
+</script>
+
 <section class="page-title-1" data-stellar-background-ratio="0.5">
   <div class="container">
     <div class="row">
@@ -82,13 +102,21 @@ Mobile breadscrubs start
 			  
               //-->
 			  
-              <?php foreach ($galeri as $g) { ?>
+              <?php foreach ($galeri as $g) { 
+                if($g->tag == 'Video'){ ?>
+                <article class="project padding-bottom-30 padding-left-30 <?=$g->tag;?>  sorting-item  listing-item">
+                  <div class="project-inner">
+                    <figure><a href=""><img src="<?=base_url();?>admin/assets/uploads/gallery/<?=$g->gambar;?>" alt=""></a><figcaption><a onclick="changeVideo('<?=$g->gambar;?>')"><i class="fa fa-search"></i></a></figcaption></figure>
+                  </div>
+                </article>
+                <?php } else { ?>
                 <article class="project padding-bottom-30 padding-left-30 <?=$g->tag;?>  sorting-item  listing-item">
                   <div class="project-inner">
                     <figure><a href=""><img src="<?=base_url();?>admin/assets/uploads/gallery/<?=$g->gambar;?>" alt=""></a><figcaption><a href="<?=base_url();?>admin/assets/uploads/gallery/<?=$g->gambar;?>" class="colorbox"><i class="fa fa-search"></i></a></figcaption></figure>
                   </div>
                 </article>
-              <?php } ?>
+              <?php }
+              } ?>
             </div>
         </div>
         </div>
@@ -98,6 +126,10 @@ Mobile breadscrubs start
 
       //-->
       </div>
+
+      <!-- <a onclick="changeVideo('e80BbX05D7Y')">video-1</a>
+      <a onclick="changeVideo('ReRcHdeUG9Y')">video-2</a> -->
+
       <!--
 
       pagination start
@@ -123,3 +155,20 @@ Main Content start
 
 //-->
 </section>
+
+  
+
+  <div class="modal fade" style="padding-top:120px" id="myModal" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+        
+          <iframe id="iframeYoutube" width="100%" height="315" src="" frameborder="0" allowfullscreen></iframe> 
+          
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" onclick="stopVid()" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
